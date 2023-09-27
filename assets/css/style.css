@@ -56,6 +56,10 @@ header a {
 
 }
 
+#menu>li {
+    margin-bottom: 1em;
+}
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -86,9 +90,7 @@ nav {
     font-size: 2rem;
 }
 
-#menu>li {
-    margin-bottom: 1em;
-}
+
 
 /* Main */
 main {
@@ -123,6 +125,44 @@ main {
     color: #ffffff;
 }
 
+#reasons {
+    margin: 20 auto;
+    width: 90%;
+
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
 /* footer */
 #social-network {
     text-align: center;
@@ -130,6 +170,12 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #social-network i {
