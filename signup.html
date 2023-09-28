@@ -57,7 +57,39 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+      <section id="signup">
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+          id="signup-form"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!
+          </h2>
+          <label for="f-name">First Name</label>
+          <input type="text" id="first_name" class="text-input" />
+          <br />
+          <label for="l-name">Last Name</label>
+          <input type="text" id="last_name" class="text-input" />
+          <br />
+          <label for="mail">Email Address</label>
+          <input type="email" id="mail" class="text-input" />
+          <br />
+
+          <label for="road">Road</label>
+          <input type="radio" id="road" name="running-preference" />
+
+          <label for="trail">Trail</label>
+          <input type="radio" id="trail" name="running-preference" />
+
+          <label for="both">Both</label>
+          <input type="radio" id="both" name="running-preference" />
+
+          <button type="submit" class="join-button">Let's Run!</button>
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
